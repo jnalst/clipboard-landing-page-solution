@@ -1,0 +1,38 @@
+.four-conteudo{
+    max-width: 1440px;
+    padding-left: auto;
+    padding-right: auto;
+    margin: 0 auto;
+    display: grid;
+    place-items: center; 
+    padding-top: 3rem;
+}
+
+.four-conteudo h2{
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: var(--dGrayBlue);
+}
+
+.four-conteudo p{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    color: --grayBlue;
+    max-width: 60ch;
+}
+
+.four-conteudo a{
+    margin-bottom: 12rem;
+}
+
+@media screen and (max-width: 500px) {
+    .four-conteudo a{
+        margin-bottom: 1rem;
+    } 
+    .four-conteudo{
+      margin-bottom: 12rem;
+    }
+}

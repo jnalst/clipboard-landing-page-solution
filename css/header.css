@@ -1,0 +1,23 @@
+header{
+    background-image: url(/images/bg-header-desktop.png);
+    height: 30rem;
+}
+
+.bg-header {
+max-width: 1440px;
+padding-left: auto;
+padding-right: auto;
+margin: 0 auto;
+display: grid;
+place-items: center;
+padding-top: 15rem;
+opacity: 100%;
+}
+
+@media screen and (max-width: 375px) {
+    header{
+        background-image: url(/images/bg-header-mobile.png);
+        height: 30rem;
+    
+    }
+}

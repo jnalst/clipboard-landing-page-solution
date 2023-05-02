@@ -1,0 +1,87 @@
+1 - Header - Bg e logo
+2 - main:
+ A history of everything you copy{H1}
+
+  Clipboard allows you to track and organize everything you 
+  copy. Instantly access your clipboard on all your devices.{p}
+
+  Download for iOS {a}
+  Download for Mac {a}
+
+3 - section: 
+
+	Keep track of your snippets{H2}
+
+	Clipboard instantly stores any item you copy in the cloud, 
+ 	meaning you can access your snippets immediately on all your 
+  	devices. Our Mac and iOS apps will help you organize everything.{p}
+
+
+		div:
+			img- pc
+		
+		ul
+		     li:
+			  Quick Search{h3}
+			  Easily search your snippets by content, category, web address, application, and more.{p}
+
+			  iCloud Sync{h3}
+		          Instantly saves and syncs snippets across all your devices.{p}
+
+			  Complete History{h3}
+		          Retrieve any snippets from the first moment you started using the app.{p}
+
+4 -section:
+
+	  Access Clipboard anywhere{H2}
+	  Whether you’re on the go, or at your computer, you can access all your Clipboard 
+  	  snippets in a few simple clicks.{p}
+ 	  Img - mobile e tablet
+
+5 - section: 
+
+	Supercharge your workflow{H2}
+	We’ve got the tools to boost your productivity.{P}
+
+                ul
+		     li:
+			
+			img - paper
+			h3 - Create blacklists
+			p - Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
+
+			img - Letter
+			h3 - Plain text snippets
+			p - Remove unwanted formatting from copied text for a consistent look.
+
+			img - eye
+			h3 - Sneak preview
+			p - Quick preview of all snippets on your Clipboard for easy access.
+		ul
+		     li:
+			img - google
+			img - IBM
+			img - Microsft
+			img - Hewlett
+			img - vector
+		
+6 - section:
+
+ 	Clipboard for iOS and Mac OS{H1}
+
+  	Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
+  	and you’re ready to start adding to your clipboard.{p}
+
+  	Download for iOS {a}
+  	Download for Mac {a}
+
+7 - Footer:
+
+	img logo 
+ 	a FAQs
+ 	a Contact Us
+ 	a Privacy Policy
+	a Press Kit
+	a Install Guide
+
+	

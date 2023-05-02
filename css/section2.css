@@ -1,0 +1,25 @@
+.second-conteudo {
+  display: grid;
+  place-items: center;
+  max-width: 1440px;
+  padding-left: auto;
+  padding-right: auto;
+  margin: 0 auto;
+  padding-top: 14rem;
+}
+
+.second-conteudo h2 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--dGrayBlue);
+}
+
+.second-conteudo p {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 8rem;
+  color: --grayBlue;
+  max-width: 62ch;
+}

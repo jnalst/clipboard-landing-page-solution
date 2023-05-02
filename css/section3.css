@@ -1,0 +1,79 @@
+.three-conteudo {
+  display: grid;
+  place-items: center;
+  max-width: 1440px;
+  padding-left: auto;
+  padding-right: auto;
+  margin: 0 auto;
+  padding-top: 6rem;
+}
+
+.three-conteudo h2 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--dGrayBlue);
+}
+
+.three-conteudo .three-conteudo-p {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 8rem;
+  color: --grayBlue;
+  max-width: 62ch;
+}
+
+.three-conteudo .icons-list {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 10rem;
+}
+
+.three-conteudo .icons-list li img {
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.three-conteudo .icons-list h3 {
+  font-size: 2rem;
+  color: var(--dGrayBlue);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.three-conteudo .icons-list p {
+  font-size: 1.4rem;
+  color: --grayBlue;
+  max-width: 34ch;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.three-conteudo .partners-list {
+  display: flex;
+  gap: 9rem;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 10rem;
+}
+
+@media screen and (max-width: 600px) {
+  .three-conteudo .icons-list {
+    flex-direction: column;
+  }
+
+  .three-conteudo .icons-list{
+    padding-left: 0rem;
+  }
+
+  .three-conteudo .partners-list {
+    flex-direction: column;
+  }
+
+  .three-conteudo .partners-list{
+    padding-left: 0rem;
+  }
+}
